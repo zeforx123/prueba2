@@ -1,0 +1,117 @@
+<section>
+  <div class="contacto-imagen">
+    <div class="header-content">
+      <h1>Contacto</h1>
+      <a routerLink="/home"><span>Página principal</span></a>
+    </div>
+  </div>
+  <header class="container crumina-heading">
+    <h2>Conversemos</h2>
+    <p>
+      Tenemos los mejores servicios de torno, fabricación de maquinarias y
+      equipos para minera y agrícolas, venta de productos de ferretería
+      industrial y otros, contamos con capital humano calificado para brindar la
+      mejor asesoría, garantizado su compra.
+    </p>
+  </header>
+  <div class="intro">
+    <div class="container">
+      <div class="row information">
+        <div class="col-md-4 flex">
+          <img
+            src="../../assets/address.svg"
+            width="70px"
+            alt=""
+            class="mr-3"
+          />
+          <div class="addres-ica">
+            <a>
+              Mz A.H Lote. 4 Otr. Tepro Alto San Martin (Por la loza
+              deportiva)</a
+            >
+            <p class="sub-title">ICA-ICA-ICA</p>
+          </div>
+        </div>
+        <div class="col-md-4 flex">
+          <img
+            src="../../assets/message.svg"
+            width="80px"
+            alt=""
+            class="mr-3"
+          />
+          <div>
+            <a href="mailto:ewhuarcaya@gmail.com">ewhuarcaya@gmail.com</a>
+            <p>Conversemos</p>
+          </div>
+        </div>
+        <div class="col-md-4 flex">
+          <img src="../../assets/telf.svg" width="80px" alt="" class="mr-3" />
+          <div>
+            <a href="tel:+51 956057252">+51 956057252</a>
+            <p>Todos los días 24/7</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <iframe
+    class="googlemaps"
+    width="800"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.261043145847!2d-75.7228035893365!3d-14.06175661097783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e2a30ac79edb%3A0xb0456341e637547e!2sProlongacion%20Grau%2C%20Parcona!5e0!3m2!1ses-419!2spe!4v1603344648340!5m2!1ses-419!2spe"
+    height="600"
+    frameborder="0"
+    style="border: 0"
+    allowfullscreen=""
+    aria-hidden="false"
+    tabindex="0"
+  ></iframe>
+  <div class="container contac-information">
+    <p>¿Quieres contactar con un asesor?</p>
+    <span
+      >Por favor déjanos tus datos para contactarnos contigo a la
+      brevedad.</span
+    >
+  </div>
+  <form action="enviar.php" method="post" class="container form-group">
+    <div class="row">
+      <div class="col-6">
+        <span>Nombre Completo / Empresa </span>
+        <input
+          type="text"
+          name="nameCompany"
+          class="form-control"
+          placeholder="Nombre / Empresa"
+        />
+      </div>
+      <div class="col-6">
+        <span>Persona de contacto</span>
+        <input type="text" name="name" class="form-control" placeholder="Nombre" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <input
+          type="text"
+          name="mail"
+          class="form-control"
+          placeholder="Correo electronico"
+        />
+      </div>
+      <div class="col-6">
+        <input type="text" name="phone" class="form-control" placeholder="Celular" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <span>Mensaje</span>
+        <textarea
+          type="text"
+          name="message" 
+          class="form-control text-area"
+          placeholder="Mensaje"
+        ></textarea>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+</section>

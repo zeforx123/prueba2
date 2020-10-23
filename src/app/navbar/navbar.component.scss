@@ -1,0 +1,29 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.logo {
+  margin-top: 10px;
+}
+.id-navbar {
+  height: 130px;
+}
+.module a{
+  font-size: 18px;
+  color: #595959;
+}
+.bg-light {
+  background: white !important;
+  position: sticky;
+  top: -1px;
+  z-index: 12;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+.nav-item {
+  margin-left: 10px;
+  font-size: 15px;
+}
